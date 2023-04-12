@@ -26,13 +26,18 @@
     --nav-hover-color: #00d5ff;
 /*    --text-color: #E1D9D1; */
 /*    --text-color: #a1a1a1;*/
+
     --text-color: white;
+    --text-shadow: #000 0px 0px 4px,   #000 0px 0px 4px,   #000 0px 0px 4px,
+             #000 0px 0px 4px,   #000 0px 0px 4px,   #000 0px 0px 4px;
     --text-opacity-low: 0.6;
     --text-opacity-med: 0.8;
     --text-opacity-high: 0.9;
+
     --anchor-color: #11ABB0;
     --anchor-hover-color: blue;
     --footer-color: #303030;
+
 }
 
 /* ------------------------------------------------------------------ */
@@ -44,20 +49,29 @@ body {
   color: var(--text-color);
 }
 
-h1, h2, h3, h4, h5{
-/*  opacity: var(--text-opacity-med);*/
-}
-
 p {
   opacity: var(--text-opacity-med);
 }
 
-
+/*desktop only*/
 @media screen and (min-width: 800px) {
   #nav-placeholder {
     margin-bottom: 50px;
   }
 }
+
+
+#nav-placeholder {
+/*  touch-action: none;*/
+/*  overflow: hidden;*/
+/*  height:100%;*/
+}
+
+
+.row.banner {
+  text-shadow: var(--text-shadow);
+}
+
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -97,12 +111,10 @@ header .banner-text h1 {
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+/*   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);   */
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-/*   color: #A8A8A8;*/
-   opacity: var(--text-opacity-med);
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
@@ -194,11 +206,18 @@ ul#nav li.current a { color: #F06000; }*/
 
 #home h3{
   line-height: 30px;
+  color: var(--text-color);
+  text-shadow: var(--text-shadow);
+
+/*    -webkit-text-fill-color: transparent;*/
+/*  -webkit-text-stroke: 1px;*/
 }
 
 #home img {
    width: 40px;
    height: 40px;
+   background: black;
+   border-radius: 25px;
 }
 
 
