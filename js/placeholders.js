@@ -5,6 +5,7 @@ $( document ).ready(function() {
     $("#footer-placeholder").load("templates/footer.html");
 
     $('#nav-wrap').click(function(e) {
+        console.log('clicked', allow_scroll);
         if (allow_scroll) {
             $('body').css('overflow', 'hidden');
         } else {
