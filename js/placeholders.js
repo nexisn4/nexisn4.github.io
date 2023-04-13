@@ -27,7 +27,7 @@ $( document ).ready(function() {
 
     // $('#nav-placeholder').empty();
 
-    $('#navbar-logo').click(function(){
-        window.location.href = 'index.html'; //It is correct!
-    })
+    // $('#navbar-logo').click(function(){
+    //     window.location.href = 'index.html'; //It is correct!
+    // })
 });

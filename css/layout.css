@@ -73,7 +73,7 @@ p {
   padding-right: 10px;
 }
 
-#navbar-logo {
+#navbar-logo-desktop, #navbar-logo-mobile {
   width:40px;
   vertical-align: middle;
 }
@@ -98,10 +98,22 @@ nav .navbar-brand {
   margin: 0;
 }
 
-@media only screen and (max-width: 600px) {
+nav .navbar-toggler-icon {
+  height: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
   .navbar {
       padding-bottom: 1rem!important;
       padding-top: 1rem!important;
+  }
+
+  #navbar-brand {
+    padding: 0!important;
+  }
+
+  #navbar-logo-desktop {
+    display: none;
   }
 }
 
