@@ -17,7 +17,7 @@ $( document ).ready(function() {
         //     allow_scroll = !allow_scroll;
         //     console.log("now: ", allow_scroll);
         // });
-        
+
         $(document).click(function (event) {
             $('.navbar-collapse').collapse('hide');
         });
@@ -26,4 +26,8 @@ $( document ).ready(function() {
     $("#footer-placeholder").load("templates/footer.html");
 
     // $('#nav-placeholder').empty();
+
+    $('#navbar-logo').click(function(){
+        window.location.href = 'index.html'; //It is correct!
+    })
 });

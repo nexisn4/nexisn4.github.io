@@ -73,25 +73,29 @@ p {
   padding-right: 10px;
 }
 
-#nav-placeholder #navbar-logo {
-  width:36px;
-/*  height:36px;*/
+#navbar-logo {
+  width:40px;
+  vertical-align: middle;
 }
 
-nav a {
+nav .navbar-nav a {
   transition: 0.3s ease;
   text-decoration: none;
   border-top: 4px solid transparent;
   border-bottom: 4px solid transparent;
-  padding: 20px 0;
-  margin: 0 5px;
+/*  padding: 20px 0;*/
+/*  margin: 0 5px;*/
   font-size: 17px;
 }
-nav a:hover {
+nav .navbar-nav a:hover {
 /*  border-top: 4px solid white;*/
   border-bottom: 4px solid white;
 /*  padding: 6px 0; */
 /*  color: grey!important;*/
+}
+
+nav .navbar-brand {
+  margin: 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -100,11 +104,6 @@ nav a:hover {
       padding-top: 1rem!important;
   }
 }
-
-
-
-
-
 
 
 /* ------------------------------------------------------------------ */
