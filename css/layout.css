@@ -115,6 +115,13 @@ nav .navbar-toggler-icon {
   #navbar-logo-desktop {
     display: none;
   }
+
+  #navbar-btn {
+/*    background-image: url("https://png.pngtree.com/background/20210711/original/pngtree-cartoon-hand-drawn-wind-sunflower-poster-background-picture-image_1069936.jpg");*/
+    background-image: url("images/bee-background.jpg");
+    background-position: center;
+/*    background-position: 0px;*/
+  }
 }
 
 
