@@ -73,6 +73,21 @@ p {
   margin-right: 10px;
 }
 
+#nav-placeholder #navbar-logo {
+  width:36px;
+/*  height:36px;*/
+}
+
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+      padding-bottom: 1rem!important;
+      padding-top: 1rem!important;
+  }
+}
+
+
+
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
