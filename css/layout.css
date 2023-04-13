@@ -60,6 +60,10 @@ p {
   }
 }
 
+#navbar-btn {
+/*  background-color: #e3f2fd;*/
+  margin: 0px;
+}
 
 #nav-placeholder {
 /*  touch-action: none;*/
@@ -67,6 +71,10 @@ p {
 /*  height:100%;*/
 }
 
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
 
 .row.banner {
   text-shadow: var(--text-shadow);
@@ -82,7 +90,10 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #ffffff url(../images/kate/flowers.jpg) no-repeat top center;
+   background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), url(../images/kate/flowers.jpg) no-repeat top center;
    background-size: cover !important;
    -webkit-background-size: cover !important;
    text-align: center;
