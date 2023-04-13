@@ -17,6 +17,10 @@ $( document ).ready(function() {
         //     allow_scroll = !allow_scroll;
         //     console.log("now: ", allow_scroll);
         // });
+        
+        $(document).click(function (event) {
+            $('.navbar-collapse').collapse('hide');
+        });
     });
 
     $("#footer-placeholder").load("templates/footer.html");

@@ -67,6 +67,12 @@ p {
   text-shadow: var(--text-shadow);
 }
 
+#nav-placeholder .navbar a {
+  color: var(--text-color);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
