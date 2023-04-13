@@ -166,7 +166,10 @@ header .social li {
 }
 
 /* hide toggle button */
-#nav-wrap > a.mobile-btn { display: none; }
+#nav-wrap > a.mobile-btn { 
+  display: none; 
+  left: 0px;
+}
 
 ul#nav {
    min-height: 48px;
